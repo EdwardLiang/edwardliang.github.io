@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="Edward Liang">
         <meta name="generator" content="Jekyll v3.8.5">
-        <title>Software</title>
+        <title>Computer Science</title>
 
         <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
 
@@ -27,11 +27,11 @@
     user-select: none;
 }
 
-            @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                    font-size: 3.5rem;
-                }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
             }
+        }
         </style>
         <!-- Custom styles for this template -->
         <link href="./resources/starter-template.css" rel="stylesheet">
@@ -46,43 +46,39 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./software.html">Software <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./hardware.html">Computer Architecture <span class="sr-only">(current)</span></a>
                     </li>
 
                     <!--
-                        <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/starter-template/#">Link</a>
-                        </li>
+                    </li>
                     -->
                 </ul>
             </div>
         </nav>
+
         <main role="main" class="container">
-            <div class="row" style="width:100%">
-                <div style="width:100%; background-image: url('./resources/monitor.png'); background-size: 100%; background-repeat:no-repeat; height: 90vh;">
-                    <a href="./os.html">
-                        <div class="row" style="padding-left:10%; padding-top:5%">
-                            <div class="container" style="background-image: url('./resources/OS.png'); background-size: 90%; background-repeat:no-repeat;height: 80vh;">
-                                <!--
-                                    <img src="./resources/OS.png" style="height:100%"> 
-                                -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
+
+            <div class="row">
+                <img src="./resources/singlecycle.gif" style="width:100%">  
             </div>
+            <!--
+               https://www.cise.ufl.edu/~mssz/CompOrg/Figure4.13-MIPSdatapath-Rlodbeq-sig.gif 
+            -->
 
             <div class="jumbotron">
-                <h1>Software</h1>
-                <p> Computer software is the programmable part of the computer. The first thing we see is the Operating System. </p>  
+                <h1>Hardware</h1>
+                    <p>Hardware are the more physical components of a computer. We focus on the Central Processing Unit(CPU) here although there are other elements of the Computer as well.</p>
+                    <p>This segment corresponds to CSE 141 and CSE 141L at UCSD</p>
             </div>
 
-            <div class="alert alert-primary" role="alert">
-                Click on the Operating System to continue.
-                <div>
+        <div class="alert alert-primary" role="alert">
+            Click on the basic single cycle processor to take a look deeper into these parts.
+        <div>
 
         </main><!-- /.container -->
         <script src="./resources/jquery-3.3.1.slim.min.js"></script>
