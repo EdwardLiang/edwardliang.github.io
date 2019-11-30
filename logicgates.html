@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="Edward Liang">
         <meta name="generator" content="Jekyll v3.8.5">
-        <title>Computer Architecture</title>
+        <title>Logic Gates</title>
 
         <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
 
@@ -48,14 +48,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="./hardware.html">Computer Architecture <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./logicgates.html">Logic Gates <span class="sr-only">(current)</span></a>
                     </li>
 
                     <!--
-                    <li class="nav-item">
+                        <li class="nav-item">
                         <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/starter-template/#">Link</a>
-                    </li>
+                        </li>
                     -->
                 </ul>
             </div>
@@ -64,23 +67,36 @@
         <main role="main" class="container">
 
             <div class="row">
-                <a href="./logicgates.html" style="width:100%">
-                    <img src="./resources/singlecycle.gif" style="width:100%">  
-                </a>
+                <div class="col-4">
+                    <a href="./cmos.html">
+                        <img src="./resources/and.png" style="width:90%">  
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="./cmos.html">
+                        <img src="./resources/or.png" style="width:80%">  
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="./cmos.html">
+                        <img src="./resources/not.png" style="width:95%">  
+                    </a>
+                </div>
+
             </div>
             <!--
-               https://www.cise.ufl.edu/~mssz/CompOrg/Figure4.13-MIPSdatapath-Rlodbeq-sig.gif 
+                https://www.cise.ufl.edu/~mssz/CompOrg/Figure4.13-MIPSdatapath-Rlodbeq-sig.gif 
             -->
 
             <div class="jumbotron">
-                <h1>Hardware</h1>
-                    <p>Hardware are the more physical components of a computer. We focus on the Central Processing Unit(CPU) here although there are other elements of the Computer as well.</p>
-                    <p>This segment corresponds to CSE 141 and CSE 141L at UCSD</p>
+                <h1>Logic Gates</h1>
+                <p>Logic Gates are like the 'neurons' of computers. Even memory can be formed by taking two logic gates and arranging them to create a feedback loop.</p>
+                <p>This segment roughly corresponds to CSE 140 and CSE 140L at UCSD. It is taught in more basic classes as well, but you really start putting gates together and learning the theory in these two classes.</p>
             </div>
 
-        <div class="alert alert-primary" role="alert">
-            Click on the basic single cycle processor to take a look deeper into these parts.
-        <div>
+            <div class="alert alert-primary" role="alert">
+                Click on a logic gate to see what makes a logic gate.
+                <div>
 
         </main><!-- /.container -->
         <script src="./resources/jquery-3.3.1.slim.min.js"></script>
