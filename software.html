@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="Edward Liang">
         <meta name="generator" content="Jekyll v3.8.5">
-        <title>Computer Science</title>
+        <title>Software</title>
 
         <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
 
@@ -27,11 +27,11 @@
     user-select: none;
 }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
             }
-        }
         </style>
         <!-- Custom styles for this template -->
         <link href="./resources/starter-template.css" rel="stylesheet">
@@ -46,41 +46,43 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./software.html">Software <span class="sr-only">(current)</span></a>
+                    </li>
+
                     <!--
-                    <li class="nav-item">
+                        <li class="nav-item">
                         <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/starter-template/#">Link</a>
-                    </li>
+                        </li>
                     -->
                 </ul>
             </div>
         </nav>
-
         <main role="main" class="container">
-
-            <div class="row mb-3">
-                <div class="col-12 col-sm-6 col-lg-8">
-                    <a href="./software.html">
-                        <img src="./resources/monitor.png" style="width: 80%; display: block; margin-left: auto; margin-right: auto"> 
-                    </a>
-                </div>
-                <div class="col-6 col-lg-4">
-                    <a href="./hardware.html">
-                        <img src="./resources/computer.png" href="./hardware.html" style="width: 100%; display: block; margin-left: auto; margin-right: auto"> 
+            <div class="row" style="width:100%">
+                <div style="width:100%; background-image: url('./resources/monitor.png'); background-size: 100%; background-repeat:no-repeat; height: 90vh;">
+                    <a href="./os.html">
+                        <div class="row" style="padding-left:10%; padding-top:5%">
+                            <div class="container" style="background-image: url('./resources/OS.png'); background-size: 90%; background-repeat:no-repeat;height: 80vh;">
+                                <!--
+                                    <img src="./resources/OS.png" style="height:100%"> 
+                                -->
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
 
             <div class="jumbotron">
-                <h1>Welcome!</h1>
-                <p> Hello! Welcome to this website. This website was designed as a project for the CAT125 class at UCSD. It is an overview of many classes and components of the computer.</p>  
-                <p> At the highest level, a computer consists of a monitor and a tower. Click on either the computer tower on the right or the monitor on the left. The monitor will bring you to a view of computer software while the tower will bring you to the hardware. </p>
+                <h1>Software</h1>
+                <p> Computer software is the programmable part of the computer. The first thing we see is the Operating System. </p>  
             </div>
 
-        <div class="alert alert-primary" role="alert">
-            Click on either the tower or the monitor to continue.
-        <div>
+            <div class="alert alert-primary" role="alert">
+                Click on the Operating System to continue.
+                <div>
 
         </main><!-- /.container -->
         <script src="./resources/jquery-3.3.1.slim.min.js"></script>
